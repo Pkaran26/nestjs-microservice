@@ -5,6 +5,7 @@ import { AppModule } from './app.module';
 
 const logger = new Logger();
 
+// yarn add redis
 const microserviceOptions = {
   transport: Transport.TCP,
   options: {
